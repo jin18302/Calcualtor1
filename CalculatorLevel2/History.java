@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class History {
 
-    LinkedList<Integer> list = new LinkedList<>();
+   private LinkedList<Integer> list = new LinkedList<>();
     int size = list.size();
 
     void setHistory(int value){
