@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 
 public class History {
-    LinkedList<Number> list = new LinkedList<>();
+   private LinkedList<Number> list = new LinkedList<>();
 
     void setHistory(Number value){
         list.add(value);
